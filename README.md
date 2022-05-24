@@ -46,11 +46,17 @@ ps：游戏实机演示画面已经上传至bilibili
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%93%8D%E5%BA%94%E6%A3%80%E6%B5%8B.png)  
 
 ### 手雷球型碰撞、伤害制作  
-为手雷定制一个蓝图，手雷在诞生时执行以下操作：  
-|延迟1.5秒|
+为手雷定制一个蓝图：  
+|手雷在诞生时执行以下操作|
 |------|
+|延迟1.5秒|
 |spawn一个音效|
 |在原地产生一个粒子特效|
 |发射出球型射线|
 |对每个射线碰撞到的actor发送一个指令（代表被击中的事件）|
 |在原地产生一个球型击退效果（激活类中的force）|
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E5%B1%95%E7%A4%BA.png)    
+蓝图流程如下：  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E8%93%9D%E5%9B%BE1.png)    
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E8%93%9D%E5%9B%BE2.png)    
+
