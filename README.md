@@ -56,6 +56,7 @@ ps：游戏实机演示画面已经上传至bilibili
 |对每个射线碰撞到的actor发送一个指令（代表被击中的事件）|
 |在原地产生一个球型击退效果（激活类中的force）|
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E5%B1%95%E7%A4%BA.png)    
+  
 核心的球型射线算法，指的是从爆炸点中心向四周释放球型的多个射线（每个actor只会响应一次），需要提供中心坐标、半径，蓝图流程如下：  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E8%93%9D%E5%9B%BE1.png)    
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E8%93%9D%E5%9B%BE2.png)    
@@ -66,6 +67,7 @@ ps：游戏实机演示画面已经上传至bilibili
 初速度与玩家的当前视野朝向的x、y分向量相同，z轴的值略微提高。  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E6%8A%95%E6%8E%B7%E8%93%9D%E5%9B%BE.png)    
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E6%8A%95%E6%8E%B7%E8%93%9D%E5%9B%BE.png)    
+  
 手雷在结束完对每一个检测到的AI发送事件后，在原地产生一个从中心向外的推力  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B%E8%93%9D%E5%9B%BE.png)  
   
