@@ -37,6 +37,7 @@ ps：游戏实机演示画面已经上传至bilibili
 ### 射击逻辑、射线碰撞检测  
 从玩家的摄像机视角出发，需要调用camera的worldlocation、forwardvector  
 绘制出一条射线并与AI的mesh进行射线碰撞检测  
+若想实现设计时的抖动可以在此处的vector产生随机的偏移  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B%E5%B1%95%E7%A4%BA.png)  
   
 对检测到的所有actor强制类型转换为AI类，调用AI类中的HP（float型）使其自减20.0  
