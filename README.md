@@ -142,7 +142,19 @@ AI的类里，每个tick事件（与刷新率挂钩）都检测HP是否小于0�
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E4%BA%A7%E7%94%9F%E6%9E%AA%E6%94%AF%E8%93%9D%E5%9B%BE.png)  
   
   
-4）
+4) 地面透明墙  
+编辑关卡地图时候出现了一些不可解决的问题：地面无法设置collision。  
+解决方法：手动加入了一个透明的static mesh。  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E9%80%8F%E6%98%8E%E5%A2%99%E5%B1%95%E7%A4%BA.png)  
+  
+  
+5) 枪声音效  
+人物类中，使用鼠标左键产生枪声音效，直接spawn音频文件（需要提供坐标）。  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E9%9F%B3%E6%95%88.png)  
+  
+  
+6) 血迹粒子特效  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E7%B2%92%E5%AD%90%E7%89%B9%E6%95%88%E4%BA%A7%E7%94%9F.png)  
 
 
 
