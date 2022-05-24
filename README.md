@@ -113,10 +113,15 @@ ps：游戏实机演示画面已经上传至bilibili
 ps：需要在场景中提前预加载关卡（似乎是涉及到了shader的编译，工程需要提前编译所有的着色器才能运行）  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E4%BC%A0%E9%80%81%E9%97%A8%E5%88%87%E6%8D%A2%E5%85%B3%E5%8D%A1/%E6%B7%BB%E5%8A%A0%E5%85%B3%E5%8D%A1.png)  
 
-### AI的死亡判定
-
-
-
+### AI的死亡判定  
+AI的类里，每个tick事件（与刷新率挂钩）都检测HP是否小于0，并且设置IS dead的bool变量来决定敌人是否播放死亡动画。  
+对于AI来说有两种死亡的模拟方法，第一种是模拟物理的方法（人物自由落体并倒地），第二种是播放死亡动画  
+在AI死亡后删除该AI的对象  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/AI%E7%9A%84%E6%AD%BB%E4%BA%A1%E5%88%A4%E5%AE%9A/%E5%B1%95%E7%A4%BA.png)  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/AI%E7%9A%84%E6%AD%BB%E4%BA%A1%E5%88%A4%E5%AE%9A/%E6%AD%BB%E4%BA%A1%E8%93%9D%E5%9B%BE.png)  
+  
+在AI的动画蓝图中，根据角色蓝图中的bool值来设立自己的bool值（起到传递参数的作用），根据该bool值决定是否播放倒地动画  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/AI%E7%9A%84%E6%AD%BB%E4%BA%A1%E5%88%A4%E5%AE%9A/%E8%BD%AC%E6%8D%A2%E4%B8%BA%E8%93%9D%E5%9B%BE%E7%9A%84bool.png)  
 
 
 
