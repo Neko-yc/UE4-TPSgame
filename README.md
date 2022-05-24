@@ -81,8 +81,18 @@ ps：游戏实机演示画面已经上传至bilibili
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E6%9C%BA%E8%93%9D%E5%9B%BE.png)  
   
 例如从站姿到蹲姿，需要用到ctrl键来触发，站姿到瞄准，需要用到右键来触发。  
-![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E8%B7%B3%E8%BD%AC.png)  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E8%B7%B3%E8%BD%ACnew.png)  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E8%B7%B3%E8%BD%AC2.png)  
+  
+每个状态都有相应的骨骼动画与之绑定，决定了人物的动作，这些骨骼动画有些是纯动画，有些可以根据骨骼来混合动画。
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E6%B7%B7%E5%90%88%E5%8A%A8%E7%94%BB.png)  
+  
+有些人物的移动设计没有放在状态机当中，而是通过直接设置人物移动的参数（如maxwalkspeed）来实现  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E8%B7%91%E6%AD%A5.png)  
+
+
+
+
 
 
 
