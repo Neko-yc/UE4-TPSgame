@@ -100,7 +100,20 @@ ps：游戏实机演示画面已经上传至bilibili
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E5%8F%B3%E9%94%AE%E7%9E%84%E5%87%86%E6%97%B6%E9%95%9C%E5%A4%B4%E7%9A%84%E7%BC%A9%E6%94%BE/%E7%9E%84%E5%87%86%E5%87%BD%E6%95%B0.png)  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0%E5%8F%B3%E9%94%AE%E7%9E%84%E5%87%86%E6%97%B6%E9%95%9C%E5%A4%B4%E7%9A%84%E7%BC%A9%E6%94%BE/%E7%9E%84%E5%87%86%E8%93%9D%E5%9B%BE.png)  
 
-### 触发器实现传送门切换关卡
+### 触发器实现传送门切换关卡  
+在地图中添加盒状触发器，触发碰撞的时候进行打开关卡的操作  
+地图中的传送门粒子特效与盒装触发器的mesh对齐  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E4%BC%A0%E9%80%81%E9%97%A8%E5%88%87%E6%8D%A2%E5%85%B3%E5%8D%A1/%E8%A7%A6%E5%8F%91%E5%99%A8%E5%B1%95%E7%A4%BA.png)  
+  
+在玩家与触发器碰撞的时候触发一个事件，在蓝图中直接打开一个新的level  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E4%BC%A0%E9%80%81%E9%97%A8%E5%88%87%E6%8D%A2%E5%85%B3%E5%8D%A1/%E8%A7%A6%E5%8F%91%E5%99%A8%E8%93%9D%E5%9B%BE.png)  
+  
+ps：需要在场景中提前预加载关卡（似乎是涉及到了shader的编译，工程需要提前编译所有的着色器才能运行）  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E4%BC%A0%E9%80%81%E9%97%A8%E5%88%87%E6%8D%A2%E5%85%B3%E5%8D%A1/%E6%B7%BB%E5%8A%A0%E5%85%B3%E5%8D%A1.png)  
+
+
+
+
 
 
 
