@@ -45,5 +45,5 @@ ps：游戏实机演示画面已经上传至bilibili
 还需要使AI类支持该射线检测（trace）才可以产生碰撞  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%93%8D%E5%BA%94%E6%A3%80%E6%B5%8B.png)  
 
-### 手雷球型碰撞、伤害制作
+### 手雷球型碰撞、伤害制作  
 
