@@ -1,7 +1,7 @@
 # UE4-TPSgame  
 
 hello~ 大家好我是猫猫qwq  这个项目是一个TPS游戏demo  
-游戏实机演示画面&讲解已经上传至bilibili欢迎观看并且交流讨论  
+游戏实机演示画面&讲解已经上传至bilibili欢迎观看交流讨论并给出指导意见  
 bilibili连接：https://space.bilibili.com/8571735  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/otherimage/%E4%B8%BB%E9%A1%B5.png)  
 
