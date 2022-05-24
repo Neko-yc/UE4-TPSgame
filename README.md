@@ -1,6 +1,6 @@
 # UE4-TPSgame  
-一个UE4初学者制作的游戏demo  
-hello~ 大家好我是猫猫qwq 
+
+hello~ 大家好我是猫猫qwq  一个UE4初学者制作了一个TPS游戏demo  
 游戏实机演示画面&讲解已经上传至bilibili欢迎观看并且交流讨论  
 bilibili连接：https://space.bilibili.com/8571735  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/otherimage/%E4%B8%BB%E9%A1%B5.png)  
