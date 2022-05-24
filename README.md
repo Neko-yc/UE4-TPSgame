@@ -120,11 +120,29 @@ AI的类里，每个tick事件（与刷新率挂钩）都检测HP是否小于0�
 在AI的动画蓝图中，根据角色蓝图中的bool值来设立自己的bool值（起到传递参数的作用），根据该bool值决定是否播放倒地动画  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/AI%E7%9A%84%E6%AD%BB%E4%BA%A1%E5%88%A4%E5%AE%9A/%E8%BD%AC%E6%8D%A2%E4%B8%BA%E8%93%9D%E5%9B%BE%E7%9A%84bool.png)  
 
-### 其他美术细节
-
-
-
-
+### 其他美术细节  
+1) 准星设置  
+在人物类创建的时候在HUD中加入准星控件  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E5%87%86%E6%98%9F%E8%AE%BE%E7%BD%AE.png)  
+准星控件由四张image组成：  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E5%87%86%E6%98%9F%E5%B1%95%E7%A4%BA.png)  
+  
+  
+2) 动画混合空间  
+可以根据不同的需求来进行不同的动画混合（例如下蹲瞄准的时候可以利用下半身的蹲姿混合上半身的瞄准）  
+下面十个点分别代表不同动画（系统可以自动混合）  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E5%8A%A8%E7%94%BB%E6%B7%B7%E5%90%88%E7%A9%BA%E9%97%B4.png)  
+  
+  
+3) 人物骨骼上绑定枪支mesh  
+右手上创建新socket，绑定一个资源ak47  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E9%AA%A8%E9%AA%BC%E7%BB%91%E5%AE%9A%E6%9E%AA%E6%94%AF.png)  
+最后在这个人物类中创建一个actor在attach到socket上才算完成。  
+当需要产生枪支的时候（例如切换武器到主武器）就可以spawn这个actor来产生出枪并绑定在手上  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%85%B6%E4%BB%96%E7%BE%8E%E6%9C%AF%E7%BB%86%E8%8A%82/%E4%BA%A7%E7%94%9F%E6%9E%AA%E6%94%AF%E8%93%9D%E5%9B%BE.png)  
+  
+  
+4）
 
 
 
