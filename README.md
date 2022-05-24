@@ -86,7 +86,7 @@ ps：游戏实机演示画面已经上传至bilibili
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E6%9C%BA%E8%93%9D%E5%9B%BE.png)  
   
 例如从站姿到蹲姿，需要用到ctrl键来触发，站姿到瞄准，需要用到右键来触发。  
-通过按键事件->转变为bool型变量->在状态机中检测来实现
+通过按键事件->转变为bool型变量->在状态机中检测来实现  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E8%B7%B3%E8%BD%ACnew.png)  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E4%BA%BA%E7%89%A9%E7%A7%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%9C%BA/%E7%8A%B6%E6%80%81%E8%B7%B3%E8%BD%AC2.png)  
   
