@@ -1,6 +1,6 @@
 # UE4-TPSgame  
 
-hello~ 大家好我是猫猫qwq  这个项目是一个TPS游戏demo  
+hello~ 大家好我是猫猫qwq一个UE4的初学者  这个项目是一个TPS游戏demo  
 游戏实机演示画面&讲解已经上传至bilibili欢迎观看交流讨论并给出指导意见  
 bilibili连接：https://www.bilibili.com/video/BV1Ya411E7vs?spm_id_from=333.999.0.0  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/otherimage/%E4%B8%BB%E9%A1%B5.png)  
@@ -13,7 +13,7 @@ bilibili连接：https://www.bilibili.com/video/BV1Ya411E7vs?spm_id_from=333.999
 ## 主要模块
 |主要模块|
 |------|
-|[1.实机演示视频](#Update)  |
+|[实机演示视频](https://www.bilibili.com/video/BV1Ya411E7vs?spm_id_from=333.999.0.0  ) <br>|
 |[2.online-test中遇到的向量计算以及视野问题的实现](#onlinetest中遇到的向量计算以及视野问题的实现) |
 |[3.射击逻辑、射线碰撞检测](#射击逻辑射线碰撞检测)   |
 |[4.手雷球型碰撞、伤害制作](#手雷球型碰撞伤害制作)   |
