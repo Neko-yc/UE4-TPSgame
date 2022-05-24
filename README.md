@@ -61,5 +61,21 @@ ps：游戏实机演示画面已经上传至bilibili
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E5%88%B6%E4%BD%9C/%E6%89%8B%E9%9B%B7%E8%93%9D%E5%9B%BE2.png)    
 在AI类中收到被击中的指令之后，HP--20   
 
-### 手雷的投掷以及爆炸推力
+### 手雷的投掷以及爆炸推力   
+手雷的产生源自于玩家类中的Q按键而产生，在收到键盘事件后，根据玩家的坐标以及向前朝向的向量计算出手雷的起始地点，再为其赋予一个向前的初速度。  
+初速度与玩家的当前视野朝向的x、y分向量相同，z轴的值略微提高。  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E6%8A%95%E6%8E%B7%E8%93%9D%E5%9B%BE.png)    
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E6%8A%95%E6%8E%B7%E8%93%9D%E5%9B%BE.png)    
+手雷在结束完对每一个检测到的AI发送事件后，在原地产生一个从中心向外的推力  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B%E8%93%9D%E5%9B%BE.png)  
+  
+推力的参数设置如下：  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E6%89%8B%E9%9B%B7%E7%9A%84%E6%8A%95%E6%8E%B7%E4%BB%A5%E5%8F%8A%E7%88%86%E7%82%B8%E6%8E%A8%E5%8A%9B/%E6%8E%A8%E5%8A%9B%E5%8F%82%E6%95%B0.png)  
+
+
+
+
+
+
+
 
