@@ -33,7 +33,12 @@ ps：游戏实机演示画面已经上传至bilibili
 从玩家的摄像机视角出发，需要调用camera的worldlocation、forwardvector  
 绘制出一条射线并与AI的mesh进行射线碰撞检测  
 ![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B%E5%B1%95%E7%A4%BA.png)  
+对检测到的所有actor强制类型转换为AI类，调用AI类中的HP（float型）使其自减20.0  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B.png)  
+实现射线检测需要在UE4中创建一个通道（命名为attack）  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%88%9B%E5%BB%BA%E9%80%9A%E9%81%93.png)  
+还需要使AI类支持该射线检测（trace）才可以产生碰撞  
+![](https://github.com/Neko-yc/UE4-TPSgame/blob/main/%E5%B0%84%E7%BA%BF%E6%A3%80%E6%B5%8B/%E5%93%8D%E5%BA%94%E6%A3%80%E6%B5%8B.png)  
 
-在UE4首先要创建一个通道（命名为attack）
 
 
